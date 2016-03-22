@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10005</returnedtypecode>
+  <savedqueryid>{7cf456ad-b0f8-41d4-8d5d-7dcb21968de3}</savedqueryid>
+  <layoutxml>
+    <grid name="" object="10005" jump="new_name" select="1" icon="1" preview="0">
+      <row name="new_logentity" id="new_logentityid">
+        <cell name="new_name" width="300" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>64</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="new_logentity">
+        <attribute name="new_logentityid" />
+        <attribute name="new_name" />
+        <attribute name="createdon" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Log entity Lookup View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

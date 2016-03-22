@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{a2a86ed8-6523-4614-9ac3-3f6935495d92}</formid>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FormPresentation>0</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab name="general" verticallayout="true" id="{56bb2402-ce0d-4cb1-b5c8-e096f7a3a905}" IsUserDefined="0">
+        <labels>
+          <label description="" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section name="account information" showlabel="false" showbar="false" id="{360770b8-dc19-4cc3-80da-a70bb0ae7c6c}" IsUserDefined="0">
+                <labels>
+                  <label description="" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{b3f479e5-d761-4b1e-9dea-136183983d72}">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" disabled="false" />
+                    </cell>
+                    <cell id="{155cbd4e-d22a-477a-95bf-cf132077dd6f}">
+                      <labels>
+                        <label description="Status" languagecode="1033" />
+                      </labels>
+                      <control id="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                    </cell>
+                    <cell id="{05c2a588-6819-4c27-90cf-1ce1b5c9ad9b}">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="This is the form that is displayed for the CRM Mobile application." languagecode="1033" />
+  </Descriptions>
+</systemform>

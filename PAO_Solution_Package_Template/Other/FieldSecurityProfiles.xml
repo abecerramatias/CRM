@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FieldSecurityProfiles>
+  <FieldSecurityProfile name="Field Security Profile 1" fieldsecurityprofileid="{7369dd98-1ced-e511-80c6-000c2933d3f7}">
+    <FieldPermissions />
+  </FieldSecurityProfile>
+</FieldSecurityProfiles>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="6.1.0003.0119" SolutionPackageVersion="6.1" languagecode="1033" generatedBy="OnPremise" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Logregistration</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Log registration" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>DefaultPublisherABMORG1</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Default Publisher for ABMORG1" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Default publisher for this organization" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>new</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10000</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" />
+      <RootComponent type="1" schemaName="activitypointer" />
+      <RootComponent type="1" schemaName="contact" />
+      <RootComponent type="1" schemaName="incident" />
+      <RootComponent type="1" schemaName="new_logentity" />
+      <RootComponent type="1" schemaName="service" />
+      <RootComponent type="20" parentId="{1808b939-dd07-4ca7-aa99-ddd2734378f1}" />
+      <RootComponent type="61" schemaName="msdyn_/ActivityFeeds.Form.js" />
+      <RootComponent type="61" schemaName="msdyn_/RecordWall.htm" />
+      <RootComponent type="70" id="{7369dd98-1ced-e511-80c6-000c2933d3f7}" />
+      <RootComponent type="91" schemaName="ActivityFeeds.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+      <RootComponent type="91" schemaName="SamplePlugins, Version=0.0.0.0, Culture=neutral, PublicKeyToken=829f574d80e89132" />
+      <RootComponent type="92" id="{0df9e9e2-c1ea-e511-80c0-000c2933d3f7}" />
+      <RootComponent type="92" id="{9bbf7e7d-79ec-e511-80c5-000c2933d3f7}" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="System" id="{00000000-0000-0000-00aa-000010003000}" />
+        <Dependent key="1" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="26" schemaName="Recent Opportunities" displayName="Recent Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="System" id="{9c3f7ee8-eca7-e211-9fb6-00155dd0ea05}" />
+        <Dependent key="1" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="26" schemaName="Contract Line With Allotments" displayName="Contract Line With Allotments" parentSchemaName="contractdetail" parentDisplayName="Contract Line" solution="System" id="{8fa2705c-7e4c-4c0e-b611-4593b35a4c9e}" />
+        <Dependent key="4" type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="26" schemaName="Active Contracts" displayName="Active Contracts" parentSchemaName="contract" parentDisplayName="Contract" solution="System" id="{646de3ee-ebfb-4d19-8a44-4a619505e188}" />
+        <Dependent key="4" type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="System" id="{8bc5fb18-48f2-4782-9e16-3d452fa4ddce}" />
+        <Dependent key="1" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (6.1.3.119)" />
+        <Dependent key="7" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (6.1.3.119)" />
+        <Dependent key="8" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (6.1.3.119)" />
+        <Dependent key="4" type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (6.1.3.119)" />
+        <Dependent key="4" type="60" displayName="Information" parentDisplayName="Case" id="{f658c846-f74c-459b-b591-b97558958106}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (6.1.3.119)" />
+        <Dependent key="9" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (6.1.3.119)" />
+        <Dependent key="9" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (6.1.3.119)" />
+        <Dependent key="10" type="60" displayName="Information" parentDisplayName="Account" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (6.1.3.119)" />
+        <Dependent key="10" type="60" displayName="Information" parentDisplayName="Account" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="90" schemaName="ActivityFeeds.Plugins.CaseClose, ActivityFeeds.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="ActivityFeeds.Plugins.CaseClose" solution="ActivityFeedsCore (6.1.3.119)" />
+        <Dependent key="12" type="92" id="{0df9e9e2-c1ea-e511-80c0-000c2933d3f7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="91" schemaName="ActivityFeeds.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="ActivityFeeds.Plugins" solution="ActivityFeedsCore (6.1.3.119)" />
+        <Dependent key="13" type="91" schemaName="ActivityFeeds.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="ActivityFeeds.Plugins" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
