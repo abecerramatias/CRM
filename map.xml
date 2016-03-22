@@ -2,7 +2,8 @@
 <Mapping>
        <!-- Match specific named files to an alternate folder -->
 	   <!-- C:\Users\Administrator\Desktop\Powershell\Plug-ins\bin\Debug\SamplePlugins.dll -->
-       <FileToFile map="SamplePlugins.dll" to="Plug-ins\bin\**\SamplePlugins.dll" />
+       <FileToFile map="SamplePlugins.dll" to="C:\Users\Administrator\Desktop\Powershell\Plug-ins\bin\Debug\SamplePlugins.dll" />
+	
        <!-- Match any file in and under WebResources to an alternate set of sub-folders -->
        <!-- HTML -->
        
